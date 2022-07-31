@@ -1,6 +1,7 @@
 void setup() {
   // put your setup code here, to run once:
   Serial.begin(9600);
+  pinMode(7,OUTPUT);
   }
 
 void loop() {
@@ -8,6 +9,6 @@ void loop() {
   int lightValue=analogRead(A0);
 
   Serial.println(lightValue);
-  analogWrite(3,lightValue/4);
-  delay(1);
+  
+  
 }
