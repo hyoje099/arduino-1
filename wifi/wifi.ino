@@ -17,3 +17,4 @@ void loop() {
     Serial.write(wifi.read());
   }
 }
+//AT+CWJAP="UCA","0527080001",2
